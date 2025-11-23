@@ -1,6 +1,5 @@
 import { R2Explorer } from 'r2-explorer'
-
-export default R2Explorer({
+({
   // Set to false to allow users to upload files
   readonly: false,
   basicAuth: {
@@ -12,3 +11,5 @@ export default R2Explorer({
   // https://r2explorer.com/getting-started/security/
   // cfAccessTeamName: "my-team-name",
 })
+
+export { R2Explorer }
